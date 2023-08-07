@@ -1,0 +1,32 @@
+html{
+
+    font-size: 60px;
+}
+
+body{
+
+    font-size: 12px;
+}
+.heading{
+
+width: 50vw;
+/* vw or vh depend on viewport or screen size */
+/* percentage depends on body width */
+height: 33vh;
+text-align: center;
+border: 1px solid hotpink;
+font-size: 3em;
+/* em depend on parents font size  */
+
+}
+
+.pra{
+   
+    width: 60%;
+    min-height: 150px;
+    border: 1px solid hotpink;
+    text-align: center;
+    font-size: 1rem;
+    /* connect to the root element for exp html  */
+    
+    }

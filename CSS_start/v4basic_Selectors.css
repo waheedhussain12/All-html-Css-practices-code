@@ -1,0 +1,28 @@
+h1{
+
+
+    color: aqua;
+/*  Tag name selector is use  if you changing all the files or tags using BY TAG NAME*/
+}
+
+.subheading{
+    color: brown;
+    /* . represent the className if you changes for your choices than you use BY TAG CLASS NAME */
+
+}
+ #unique{
+
+    font-size: 20px;
+    color: green;
+    /* can only use one time in single page or use only single tag 
+    but class use multiple times in a single page 
+
+    */
+ }
+
+ #unique span{
+
+    font-weight: bold;
+
+    /* this is Descendant selector PARAENT CHILD RELATIONSHIP*/
+ }

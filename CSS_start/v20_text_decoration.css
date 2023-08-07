@@ -1,0 +1,22 @@
+div{
+    border: 2.5px solid lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+    height: 250px;
+    margin: 40PX;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: left;
+    text-align-last: center;
+    text-transform: lowercase;
+    /* word-spacing: 20px; */
+    /* letter-spacing: 20px; */
+    border-radius: 12px;
+    box-shadow: 3px 3px  2px pink;
+    text-decoration-line: underline;
+    text-decoration-color: red,gainsboro,darkblue;
+    text-decoration-style: wavy;
+
+    
+    
+    }

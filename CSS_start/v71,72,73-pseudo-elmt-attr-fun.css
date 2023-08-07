@@ -1,0 +1,49 @@
+/* pesudo element */
+p::first-letter{
+
+    background-color: fuchsia;
+    color: yellowgreen;
+    font-size: 59px;
+
+} 
+
+
+ p::first-line{
+    font-weight: 600;
+    background-color: tomato;
+
+} 
+
+p::selection{
+    color: violet;
+    background-color: blue;
+} 
+::selection{
+
+    color: tomato;
+    background-color: yellow;
+}
+::placeholder{
+
+    color: violet;
+}
+
+.after-before{
+
+border: 2px solid deeppink;
+font-size: 20px;
+
+}
+p:hover::before{
+    content: "after-before";
+    color: aquamarine;
+}
+p:hover:after{
+    content: "wahees";
+color: tomato;
+background-color: red;
+}
+.text{
+    caret-color: chocolate;
+    font-size: 20px;
+}

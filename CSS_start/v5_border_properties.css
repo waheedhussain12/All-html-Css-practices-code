@@ -1,0 +1,32 @@
+.div{
+
+ border-width: 2px;
+ border-color: peru;
+border-style: solid;
+width: 400px;
+height: 200px;
+text-align: center;
+padding-top: 50px;
+   
+}
+.div2{
+
+   /* border-width: 5px;
+    border-color: burlywood;
+    border-style: groove;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    /* this is shorthand of border properties*/
+    border: 2px solid green;
+    height: 200px;
+    width: 300px;
+}
+.div3{
+ border-top: 2px solid red;
+ /*
+ border sides you can add border any sides 
+ */
+
+}

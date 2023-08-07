@@ -1,0 +1,19 @@
+h1{
+
+    text-shadow: 5px 5px 2px yellow;
+}
+
+p{
+
+
+    /* white-space: nowrap; all words in one line  */
+    border: 3px solid gainsboro ;
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: clip;
+    text-overflow: '[--]';
+    writing-mode: horizontal-tb;
+
+}

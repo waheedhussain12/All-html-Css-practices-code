@@ -1,0 +1,32 @@
+.padding{
+
+    border: 1px solid gray;
+    width: 400px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+div{
+    padding: 5px 40px 5px 40px ;
+    height: 300px;
+    width: 500px;
+    background-color: brown;
+}
+   
+   
+    /* shorthand padding*/
+    .padding2{
+        border: 3px solid violet;
+       width: 300px;
+       height: 200px;
+       /* padding: 30px;  padding all sides*/
+       padding: 10px 2px 4px 10px;
+
+    }
+
+

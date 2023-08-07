@@ -1,0 +1,21 @@
+body{
+
+  font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+}
+
+p{
+
+    font-style: italic;
+    font-size: medium;
+    font-weight: 300;
+}

@@ -1,0 +1,7 @@
+.div{
+    width: 50%;
+    border: 2px solid red;
+    padding: 50px;
+    box-sizing: border-box;
+    /* width increass if we give border or padding or both if you use boxSizing only use padding*/
+}

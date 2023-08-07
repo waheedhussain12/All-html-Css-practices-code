@@ -1,0 +1,53 @@
+.one{
+    background: aquamarine;
+    width: 1200px;
+    min-height: 110px;
+    line-height: 110px;
+}
+@media screen and (max-width:1000px){
+    .one{
+        background-color: blue;
+        text-align: center;
+    }
+} 
+   
+
+.two{
+    background: gray;
+    width: 1200px;
+    min-height: 150px;
+    line-height: 150px;
+}
+@media screen and (max-width:900px){
+    .two{
+        background-color: red;
+        
+    }
+} 
+   
+
+.three{
+    background: fuchsia;
+    width: 1200px;
+    min-height: 200px;
+    line-height: 200px;
+}
+@media screen and (max-width:800px){
+    .three{
+        background-color: darkblue;
+        
+    }
+} 
+
+.four{
+    background: saddlebrown;
+    width: 1200px;
+    min-height: 220px;
+    line-height: 220px;
+}
+@media screen and (max-width:700px){
+    .four{
+        background-color: green;
+        
+    }
+} 

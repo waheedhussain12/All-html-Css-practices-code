@@ -1,0 +1,27 @@
+.absolute {
+  width: 200px;
+  height: 200px;
+  border: 1px solid yellowgreen;
+  font-size: 20px;
+  position: absolute;
+}
+
+.box1 {
+  background: gold;
+
+  top: 100px;
+  left: 50px;
+}
+.box2 {
+  background: red;
+
+  top: 150px;
+  left: 100px;
+  z-index: -1;
+}
+.box3 {
+  background: gray;
+
+  top: 200px;
+  left: 150px;
+}

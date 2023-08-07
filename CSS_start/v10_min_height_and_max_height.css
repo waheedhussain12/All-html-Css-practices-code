@@ -1,0 +1,8 @@
+.div{
+
+    width: 700px;
+    min-height: 200px; /*content and height both are equally increase*/
+    max-height:  400px;/*height limit is 400px if you cross the 400px height than content overflow*/
+    border: red solid;
+
+}

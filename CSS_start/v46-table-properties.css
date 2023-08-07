@@ -1,0 +1,17 @@
+
+table{
+    border-spacing: 10px 20px;
+    /* 10px column and 20px row spacing shorthand */
+    border-collapse: separate;
+    empty-cells: show;
+table-layout: auto;
+vertical-align: middle;
+padding: 10px;
+caption-side: top;
+
+}
+
+table, td, th {
+border: 1px solid firebrick;
+
+}

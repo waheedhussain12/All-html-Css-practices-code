@@ -1,0 +1,15 @@
+.div{
+    width: 50%;
+    height: 200px;
+    border: 3px solid gold;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 80px;
+    opacity: 0.5;
+    background: rgb(189, 0,0,0.2);
+/* RGB  is better than opacity */
+    /* linear gradient top to bottom and bottom to top and left to right and right to left */
+    /* background:radial-gradient(green, red); */
+
+}

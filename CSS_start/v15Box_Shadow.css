@@ -1,0 +1,14 @@
+.div{
+
+    width: 50%;
+    height: 250px;
+    border: 3px solid cornflowerblue;
+    background-color: tomato;
+    margin: 40px;
+    box-shadow:   inset  10px 10px 20px, inset 10px 20px green
+    /* add multiple shadows add by , 
+    first 10px is h-offset 2nd 10px is blur 3rd 20px is spread and last color
+    inset means all properties show inside the box
+    */
+
+}

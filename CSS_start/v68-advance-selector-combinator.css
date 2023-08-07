@@ -1,0 +1,56 @@
+/* Simple selectors 
+1- type or tag selector; 
+2- class selector;
+3- id selector;
+4- universal selector
+*/
+
+/* univeral selector */
+/* #list2 *{
+    color: yellowgreen;
+} */
+/* 
+.*{
+padding: 5px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+} */
+/* type or tag selector */
+/* h1 {
+  border: 1px solid gold;
+} */
+
+/* class selector */
+/* .heading {
+  color: fuchsia;
+} */
+
+/* id selector */
+/* #list2{
+    color: tomato;
+} */
+
+
+/* COMBINATORS SELECTORS 
+1- Descentant selector
+2- Direct child Selector
+3- Adjacent Selectors
+4- General Selectors
+*/
+/* 1- Descentant selector */
+/* .heading2 h1{
+    color: violet;
+} */
+
+
+/* 2- Direct child selector */
+/* #box >p{
+    color: violet;
+} */
+/* 3- Adjacent selector 
+   4- General Selectors
+*/
+ul ~ p{
+
+    color: violet;
+}

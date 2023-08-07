@@ -1,0 +1,59 @@
+.relative{
+
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid firebrick;
+    background: violet;
+    border-radius: 10px;
+    position: relative;
+   
+    
+
+   
+    /* relative apni position nh chr tha us ko shift kro pr wo apni space pe nh ana de ta kse ko */
+
+   
+}
+.absolute{
+/* absolute position apni depend krta tha pare
+    nt and root element pe and wo apni space chr hai */
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: 1px solid crimson;
+    background: aqua;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    
+    
+    
+
+
+}
+
+
+.fixed{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border: 1px solid goldenrod;
+    background: gold;
+    border-radius: 10px;   
+    position: fixed;
+    left: 10px;
+    /* fixed position is fixed on the screen dose dont change */
+}
+
+.sticky{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: 1px solid forestgreen;
+    background: gold;
+    border-radius: 10px;   
+    position: sticky;
+    left: 300px;
+    top: 110px;
+}

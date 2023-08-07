@@ -1,0 +1,31 @@
+
+:root{
+    --pra-color: rgb(173, 173, 21);
+    --heading-color: green;
+    --heading-pra-font : arial;
+    --fontsize : 30px
+    /* global variables use in where any dive heading  */
+}
+.heading{
+    --fontsizeclass : 50px;
+    /* this variable use in only this class also called local var() */
+    width: 50vw;
+    height: 30vh;
+    border: 2px solid navajowhite;
+    margin-bottom: 40px;
+    font-size: var(--fontsizeclass);
+    /* local variable */
+    color: var(--heading-color);
+    font-family: var(--heading-pra-font);
+}
+
+
+.pra{
+
+    width: 50vw;
+    height: 30vh;
+    border: 2px solid navajowhite;
+    font-size: var(--fontsize);
+    color: var(--pra-color);
+
+}

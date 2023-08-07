@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormTag</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="idname">Name</label>
+            <input type="text" name="" value="" placeholder="Enter your name" id="idname" />
+            <br />
+            <br />
+            <label for="idname"> Password</label>
+            <input type="password" name="null" id="idname" />
+            <br />
+            <br />
+            <label for="">Gender</label>
+            <input type="radio" name="Gender" value="" id="idmale" />
+            <label for="idmale">Male</label>
+            <input type="radio" name="Gender" value="" id="idfemale" />
+            <label for="idfemale">Female</label>
+            <input type="radio" name="Gender" value="" id="idthird"><label for="idthird">Others</label>
+            <br />
+            <br />
+            <label for="">Hobbies</label>
+
+            <input type="checkbox" name="" id="idmusic" /><label for="idmusic">Music</label>
+
+            <input type="checkbox" name="" id="idfootball" /><label for="idfootball">Football</label>
+
+            <input type="checkbox" name="" id="idpro" /> <label for="idpro">Programming</label>
+
+            </label>
+            <br />
+            <br />
+            <label for="">Message</label><textarea name="idname" id="idname" cols="40" rows="10"
+                placeholder=" Enter your name.."></textarea>
+            <br /> <br />
+
+            <label for="">Country</label>
+            <select name="" id="" size="2" multiple>
+                <option selected value="pk">pakistan</option>
+                <option value="in">india</option>
+                <option value="cn">china</option>
+                <option value="usa">USA</option>
+                <option value="ir">Iran</option>
+            </select> <br /> <br />
+            <label for="">Cars</label>
+            <select name="" id="">
+                <optgroup label="toyota">
+                    <option value="">innvoa</option>
+                    <option value="">etios</option>
+                    <option value="">fortuner</option>
+                    <option value="">cd</option>
+                </optgroup>
+                <optgroup label="honda">
+                    <option value="">car 1</option>
+                    <option value="">car 2</option>
+                    <option value="">car 3</option>
+                    <option value="">car 4</option>
+                </optgroup>
+                <optgroup label="cd">
+                    <option value="">bike 1</option>
+                    <option value="">bike 2</option>
+                    <option value="">bike 3</option>
+                    <option value="">bike 4</option>
+                </optgroup>
+            </select>
+            <br /> <br />
+            <label for="">Cars</label> <input list="idcars">
+            <datalist id="idcars">
+                <option value="Innova">
+                <option value="kwid">
+                <option value="hondaa">
+                <option value="etios">
+                <option value="toyota">
+                <option value="bike">
+            </datalist>
+
+            <br /> <br />
+            <label for="">Upload File</label>
+            <input type="file" name="" accept="image/*">
+            <br /> <br />
+
+            <label for="">Upload Audio file</label>
+            <input type="file" name="" accept="Audio/*">
+            <br /> <br />
+            <label for="">Upload Video file</label>
+            <input type="file" name="" accept="Video/*">
+            <br /> <br />
+            <input type="submit" value="use for form submit">
+            <input type="button" value="use for js">
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

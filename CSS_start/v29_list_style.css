@@ -1,0 +1,16 @@
+ul li {
+list-style-type:square;
+/* list-style: lower-alpha; */
+list-style-position: inside;
+
+
+
+}
+ol li{
+
+
+    list-style: upper-roman;
+    list-style-position: outside;
+    list-style-type: georgian;
+    
+}

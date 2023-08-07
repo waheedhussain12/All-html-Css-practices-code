@@ -1,0 +1,22 @@
+ul{
+    margin: 50;
+   
+border: 2px solid goldenrod;
+
+}
+li{
+
+    border: 2px solid rgb(163, 43, 107);  
+    /* display: inline; */
+    /* display: none; */
+    width: 40px;
+    padding: 10px;
+    display: inline-block;
+    /* display: list-item; */
+    list-style-type: circle;
+    list-style: inside;
+    visibility:visible;
+    
+    
+}
+

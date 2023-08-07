@@ -1,0 +1,13 @@
+.div{
+
+    width: 50%;
+    height: 250px;
+    border: 5px solid goldenrod;
+   /*  overflow: hidden; All data hidden in div*/
+  /*  overflow: scroll;   if data is overflow than use scrollbar*/
+ /* overflow: auto; if data is overflowing auto property use automatic and show scrollbar*/
+/* overflow: visible;  default value*/ 
+overflow-y: auto;
+overflow-x: auto;
+
+}

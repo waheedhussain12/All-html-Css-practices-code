@@ -1,0 +1,85 @@
+
+/* 
+#list li:first-child{
+    color: rebeccapurple;
+    border: 2px solid salmon;
+    background: chocolate;
+    property apply only child tags
+}
+li:last-child{
+
+    background: firebrick;
+    font-size: 23px;
+      property apply only child tags
+} */
+
+
+
+/* li:nth-child(odd){
+    border: 2px solid fuchsia;
+}
+li:nth-last-child(2n+1){
+    background-color: firebrick;
+} */
+
+ /* p:nth-of-type(1){
+    background-color: tomato;
+} 
+target all type of p 
+p:nth-last-of-type(2){
+    background-color: tomato; */
+
+   /* p:only-child{
+    border: 2px solid fuchsia;
+   }
+   
+   p:only-of-type{
+    color: chartreuse;
+   } */
+/* li:first-of-type{
+    background-color: violet;
+}
+li:last-of-type{
+    background-color: green;
+} */
+
+/* .div:empty{
+    color: firebrick;
+    border: 2px solid salmon;
+} */
+/* 
+ul:not(#list){
+    color: aquamarine;
+} */
+
+/* link hover active visited */
+/* ul a:link{
+    color: yellow;
+    
+}
+
+.div ul a:hover{
+    color: yellow;
+    background-color: violet;
+    border-radius: 7px;
+    padding: 5px;
+    
+}
+
+ul a:visited{
+    color: forestgreen;
+    
+} */
+
+
+p:target{
+    color: red;
+    
+}
+
+
+
+
+
+
+

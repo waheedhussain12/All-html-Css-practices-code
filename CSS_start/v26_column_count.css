@@ -1,0 +1,10 @@
+.div{
+width: 1000;
+    border: 3px solid rosybrown;
+column-count: calc(4);
+column-gap: 20px;
+column-rule-style: dashed;
+column-width: 2px;
+column-rule-color: yellow;
+
+}

@@ -1,0 +1,21 @@
+body {
+  
+  background-repeat: repeat;
+  /* background-position: 50%; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: space;
+  background-repeat: round; */
+  /* background-position: center; */
+  background-attachment: scroll;
+  background-attachment: fixed;
+  background-size: cover;
+  background-origin:content-box;
+  background-origin: border-box;
+  background-clip: padding-box;
+  background-clip: border-box;
+  background-clip: content-box;
+  
+    background-image: url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+
